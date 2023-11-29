@@ -16,7 +16,6 @@ Todo app which has functionalities of adding, removing, and some other cool feat
 ## Contributing
 
 Contributions are always welcome!
-
-You can send me pull requests.
+You can send me pull requests. 
 
 
