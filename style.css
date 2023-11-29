@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+	width: 100vw;
+	background-color: rgba(128, 128, 128, 0.233);
+}
+
+.container{
+	width: 90%;
+	max-width: 500px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #fff;
+	position: relative;
+}
+
+.container > input{
+	width: 100%;
+	font-size: 1.1rem;
+	padding: 9px;
+	border: none;
+	background-color: #eeeded;
+	border-radius: 5px;
+}
+
+.task-info-top, .task-info-bottom{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 30px;
+	font-size: 0.7rem;
+	padding: 2px;
+	border-bottom: 1px solid rgb(226, 226, 226);
+	color: rgb(151, 151, 151);
+}
+
+.task-info-bottom{
+	border: none;
+	border-top: 1px solid rgb(226, 226, 226);
+}
+
+.tasks{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	gap: 5px;
+	min-height: 150px;
+	font-weight: 600;
+}
+
+.task{
+	height: 27px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.task > div{
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	width: 90%;
+	gap: 10px;
+}
+
+.remove{
+	display: none;
+	font-size: 1.4rem;
+}
+
+.remove:hover{
+	cursor: pointer;
+}
+
+.task:hover .remove{
+	display: block;
+}
+
+.text-active{
+	color: black;
+	text-decoration: underline;
+}
+
+.cursor-pointer{
+	cursor: pointer;
+}
